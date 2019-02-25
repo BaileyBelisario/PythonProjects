@@ -1,0 +1,15 @@
+GET
+
+		-Useful for retrieving data
+		-Data passed in query string
+		-Should have no "side effects"
+		-Can be cached
+		-Can be bookmarked
+
+POST
+
+		-Useful for writing data
+		-Data passed in request body
+		-Can have "side effects"
+		-Not cached
+		-Cannot be bookmarked

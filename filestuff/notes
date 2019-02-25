@@ -1,0 +1,13 @@
+file modes
+
+use
+.seek to move python cursor
+.write to write to the file
+.read to read file
+.readline to read 1 line
+.readlines to put lines into list
+
+'r' which is defualt
+'w' to write to a file and overwrite or create new file
+'a' to append to a file
+'r+' to read and write to file, but will start at the beginning of file and will replace what was there before

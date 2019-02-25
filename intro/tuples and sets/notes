@@ -1,0 +1,14 @@
+tuples are immutable lists
+tuples are faster than list
+if you know it is not going to change use it
+it makes your code safer from bugs because it is static
+() to create them or the tuple function
+
+sets are like formal math sets
+sets do not have duplicate values
+elements in sets are not ordered
+you cannot access items in a set by index
+combination of dict and list
+they are useful if you need to keep track of a collection of elements, without worrying about the order
+
+

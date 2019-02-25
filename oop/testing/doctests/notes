@@ -1,0 +1,10 @@
+We can write tests for dunctions inside of the docstring
+
+Write code that is in a specific way
+
+
+Issues
+Syntax is strange
+Clutters up function code
+Lacks many featrues of larger testing tools
+Tests can be brittle

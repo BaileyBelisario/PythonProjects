@@ -1,0 +1,14 @@
+We can make simple assertions with the assert keyword
+
+assert accepts an expression
+
+Returns None if the expression is truthy
+
+Raises an AssertionError if the expression is falsy
+
+Accepts an optional error message as a second argument
+
+Should not use it everywhere in the testing code.
+
+If a python file is run with the -O flag then assertions will be avoided
+Cannot count on them to run

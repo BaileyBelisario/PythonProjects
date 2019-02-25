@@ -1,0 +1,17 @@
+Test smallest parts of an application in isolation(units)
+Good candidates for unit testing: individual classes, modules, or functions
+Bad candidates for unit testing: an entire application, dependencies across several classes or modules
+
+import unittest
+look at documentation
+
+encapsulated as classes that inherit from unittest.TestCase
+This inheritance give you access to many assertion helpers that let you test the behavior of your functions
+You can run tests by calling unittest.main()
+
+self.assertEqual(x,y)
+self.assertNotEqual(x,y)
+self.assertTrue(x)
+self.assertFalse(x)
+self.assertIsNone(x)
+self.assertIsNotNone(x)

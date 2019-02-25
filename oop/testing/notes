@@ -1,0 +1,20 @@
+Test Driven Development - TDD
+
+Reduce bugs in the existing code
+Ensure bugs that are fixed stay fixed
+Ensure that new features do not break old ones
+Ensure that cleanin up code does not introduce new bugs
+Makes development more satisfying
+
+This can slow down developers but it is important
+
+Development begins by writing tests
+Once tests are written, write code to make tests pass
+Once tests pass, a feature is considered complete
+
+
+Red,Green,Refactor
+
+Red - Write a test that fails
+Green - Write the minimal amount of code necessary to make the test pass
+Refactor - Clean up the code, while ensuring that the tests still pass

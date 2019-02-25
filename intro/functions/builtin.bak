@@ -1,0 +1,32 @@
+import sys
+sys.getsizeof will return the amount of bytes
+
+sorted will sort in ascending but will not change the iterable
+for dictionaries
+		EX: sorted(dictionary,key=lambda user: user['username'])
+				reverse=True to reverse
+
+sort will sort and change the iterable
+
+all will return true if the iterable items are truthy and return false if one is falsy or if empty
+
+any will return true if one of the iterable items are truthy and return fase if empty or none of the items are truthy
+
+min
+
+max
+
+reverse
+reversed
+
+len
+abs will return the absolute value of a number, may be integer or floating point number
+
+to use fabs, import math, but fabs is for floating point numbers absolute value
+
+sum will return the sum from left to right of an iterable, optional start is second parameter and will be the number it starts at
+fsum is more precise for floating point numbers in math
+
+round will round the number a specific amount of digits you provide, otherwise it will return the nearest integer
+
+zip will basically pair each nth data together and returns a tuple, so if you did a list and list it would pair the 1st of each list and so on.
