@@ -14,7 +14,7 @@ class MyClient(discord.Client):
     # Note you will need to allow the bot to manage nickname and change nickname on integration, then allow it to see the private channel
 
     async def on_ready(self):
-        channel = client.get_channel(810266123764629595)
+        channel = client.get_channel(CHANNEL ID)
         await channel.send('AAPL - GD')
 
 
