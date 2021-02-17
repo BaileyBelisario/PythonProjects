@@ -26,6 +26,7 @@ class MyClient(discord.Client):
         if message.content == 'AAPL - GD':
             if message.author.id == client.user.id:
                 stock = message.content.split(" ")[0]
+                await message.delete()
                 link = 'https://finance.yahoo.com/quote/' + stock + '?p=' + stock
                 
                 while True:
